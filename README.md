@@ -5,7 +5,7 @@ Este es un sistema de gestión de empleados desarrollado con Spring Boot, React,
 ## 📌 **Tecnologías Utilizadas**
 
 - Backend: Spring Boot, Java, Spring Data JPA
-- Frontend: React, Bootstrap
+- Frontend: React, Javascript, Bootstrap
 - Base de Datos: MySQL
 
 ## ⚙️ **Instalación y Configuración**
