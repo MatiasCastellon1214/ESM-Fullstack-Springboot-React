@@ -4,9 +4,9 @@ Este es un sistema de gestión de empleados desarrollado con Spring Boot, React,
 
 ## 📌 **Tecnologías Utilizadas**
 
-- Backend: Spring Boot, Java, Spring Data JPA
-- Frontend: React, Javascript, Bootstrap
-- Base de Datos: MySQL
+- Backend: ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white), ![APIs RESTful](https://img.shields.io/badge/APIs_RESTful-FF6F00?style=flat&logo=api&logoColor=white),  ![alt text](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=oracle&logoColor=white)
+- Frontend: ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black), ![alt text](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black), ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+- Base de Datos: ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 ## ⚙️ **Instalación y Configuración**
 
