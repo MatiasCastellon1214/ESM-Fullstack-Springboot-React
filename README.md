@@ -1,33 +1,33 @@
 # Employee Management System
 
-Este es un sistema de gestión de empleados desarrollado con Spring Boot, React, Bootstrap y MySQL. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre empleados.
+This is an employee management system developed with Spring Boot, React, Bootstrap and MySQL. It allows to perform CRUD (Create, Read, Update, Delete) operations on employees.
 
-## 📌 **Tecnologías Utilizadas**
+## 📌 **Technologies Used**
 
 - Backend: ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white), ![APIs RESTful](https://img.shields.io/badge/APIs_RESTful-FF6F00?style=flat&logo=api&logoColor=white),  ![alt text](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=oracle&logoColor=white)
 - Frontend: ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black), ![alt text](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black), ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 - Base de Datos: ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-## ⚙️ **Instalación y Configuración**
+## ⚙️ **Installation & Configuration**
 
-### 🔧 Requisitos Previos
+### 🔧 Prerequisites
 
-Asegúrate de tener instalados los siguientes programas:
+Make sure you have the following software installed:
 
-- ✅ Java 17 o superior
+- ✅ Java 17 or later
 - ✅ Node.js y npm
 - ✅ MySQL
 - ✅ Maven
 
-## 🛠️  **Configuración de la Base de Datos**
+## 🛠️ **Database configuration**
 
-### Crea una base de datos en MySQL:
+### Create a database in MySQL:
 
 ```sql
 CREATE DATABASE employee_management;
 ```
 
-### Configura las credenciales en application.properties o application.yml (según corresponda):
+### Configure credentials in application.properties or application.yml (as appropriate):
 
 ```sql
 spring.application.name=ems-backend
@@ -36,35 +36,34 @@ spring.datasource.username=TU_USUARIO
 spring.datasource.password=TU_CONTRASEÑA
 ```
 
-### ▶️ Ejecución del Backend
+### ▶️ Running the Backend
 
-Ve al directorio del backend:
-
+Go to the backend directory:
 ```sql
   cd backend
 ```
 
-### Compila y ejecuta el proyecto con Maven:
+### Compile and run the project with Maven:
 
 ```sql
 mvn spring-boot:run
 ```
 
-### ▶️ Ejecución del Frontend
+### ▶️ Running the Frontend
 
-Ve al directorio del frontend:
+Go to the frontend directory:
 
 ```bash
 cd frontend
 ```
 
-### Instala las dependencias:
+### Install the dependencies:
 
 ```bash
 npm install
 ```
 
-### Inicia la aplicación:
+### Start the application:
 
 ```bash
 npm run dev
@@ -72,19 +71,24 @@ npm run dev
 
 ## 🌐 API Endpoints
 
-- **GET** /api/employees: Obtener todos los empleados
-- **POST** /api/employees: Agregar un nuevo empleado
-- **PUT** /api/employees/{id}: Actualizar un empleado
-- **DELETE** /api/employees/{id}: Eliminar un empleado
+- **GET** /api/employees: Get all employees
+- **POST** /api/employees: Add a new employee
+- **PUT** /api/employees/{id}: Update an employee
+- **DELETE** /api/employees/{id}: Delete an employee
 
-"" 🚀 Mejoras Futuras
+‘’ 🚀 Future Enhancements
 
-- 🔐 Implementación de autenticación y autorización (JWT, OAuth, etc.)
-- 📦 Implementación de Docker para despliegue fácil
-- 🧪 Implementación de pruebas unitarias y de integración
+- 🔐 Implementation of authentication and authorisation (JWT, OAuth, etc.)
+- 📦 Docker implementation for easy deployment
+- 🧪 Implementation of unit and integration tests
 
-🤝 Contribuciones
+🤝 Contributions
 
-Si deseas contribuir, crea un fork del repositorio, realiza tus cambios en una nueva rama y envía un pull request.
+If you want to contribute, create a fork of the repository, make your changes in a new branch and send a pull request.
 
-🔔 **Nota:** Este proyecto está actualmente configurado solo para desarrollo local. No se recomienda su despliegue en entornos productivos sin las debidas medidas de seguridad.
+🔔 **Note:** This project is currently configured for local development only. It is not recommended for deployment in production environments without proper security measures.
+
+## 🌍 Live Demo
+
+![Demo GIF](frontend/ams-frontend/public/ems.gif)  
+
